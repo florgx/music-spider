@@ -81,7 +81,7 @@ class PySpider(RedisSpider):
         item['audio'] = response.body
         yield item
 
-        # 程序基本功能完成，接下来实现自动翻页和实现断点续传功能的增量式爬虫
+  
 
 
 
